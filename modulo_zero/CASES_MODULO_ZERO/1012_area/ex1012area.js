@@ -2,6 +2,7 @@ var input = require('fs').readFileSync('./CASES_MODULO_ZERO/1012_area/stdin', 'u
 console.log(typeof input);
 var lines = input.split(' '); 
 console.log(lines);
+
 let a = Number(lines[0]);
 let b = Number(lines[1]);
 let c = Number(lines[2]);
