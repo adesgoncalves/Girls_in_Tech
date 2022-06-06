@@ -11,5 +11,3 @@ if (salario <= 2000.00) {
     console.log(`R$ ${imposto.toFixed(2)}`)
 } else imposto = (salario - 4500) * 0.28 + (1500 * 0.18) + (1000 * 0.08)
     console.log(`R$ ${imposto.toFixed(2)}`)
-
-    // VERIFICAR PORQUE A SAÍDA ESTÁ DUPLICADA
