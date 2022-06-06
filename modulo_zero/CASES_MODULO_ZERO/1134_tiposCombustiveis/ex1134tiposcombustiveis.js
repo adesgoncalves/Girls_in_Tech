@@ -1,6 +1,5 @@
 var input = require('fs').readFileSync('./CASES_MODULO_ZERO/1134_tiposCombustiveis/stdin', 'utf8');
 var lines = input.split('\n');
-console.log(lines)
 
 let alcool = 0 
 let gasolina = 0
@@ -25,6 +24,6 @@ for (let i = 0; i < lines.length; i += 1) {
 
 }
 console.log('MUITO OBRIGADA!');
-console.log('Alcool: ' + alcool);
-console.log('Gasolina: ' + gasolina);
-console.log('Diesel: ' + diesel);
+console.log('Alcool: ' + `${alcool}`);
+console.log('Gasolina: ' + `${gasolina}`);
+console.log('Diesel: ' + `${diesel}`);
